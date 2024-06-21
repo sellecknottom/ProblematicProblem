@@ -85,7 +85,7 @@ namespace ProblematicProblem
                     randomNumber = rng.Next(activities.Count);
                     randomActivity = activities[randomNumber];
                 }
-                Console.Write($"Ah got it! {randomActivity}, your random activity is: {userName}! Do you want to grab another activity? true/false: ");
+                Console.Write($"Ah got it! {userName}, your random activity is: {randomActivity}! Do you want to grab another activity? true/false: ");
                 Console.WriteLine();
                 bool.TryParse(Console.ReadLine(), out cont);
             }
